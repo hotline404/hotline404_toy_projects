@@ -26,10 +26,14 @@ function createFooter () {
 
   footerContents.innerHTML = `
     <div class="footer-contents">
-      <p>제작 : </p>
-      <span>김영준(hotline404)</span>
-      <p>email : </p>
-      <span>cosmoyj7733@gmail.com</span>
+      <div>
+        <span>제작 : </span>
+        <span>김영준(hotline404)</span>
+      </div>
+      <div>
+        <span>email : </span>
+        <span>cosmoyj7733@gmail.com</span>
+      </div>
     </div>
   `;
 

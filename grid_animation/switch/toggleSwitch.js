@@ -2,9 +2,9 @@ function createToggle () {
   const toggleSwitch = document.createElement("div");
   
   toggleSwitch.innerHTML = `
-    <label>
+    <label class="toggle-switch">
       <input role="switch" type="checkbox" />
-      <span>모드</span>
+      <span>다크 모드</span>
     </label>
   `;
 
