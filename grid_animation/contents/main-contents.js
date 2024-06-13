@@ -11,3 +11,7 @@ function createContents () {
 
   contentsContainer.appendChild(contents);
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  createContents();
+})
