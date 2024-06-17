@@ -4,11 +4,12 @@ const contentsContainer = document.querySelector(".contents-container");
 
 function createContents () {
   const contents = document.createElement("div");
+  contents.className = "contents";
 
   contents.innerHTML = `
-    <div class="contents">
+    
       <div class="grid-contents"></div>
-    </div>
+    
   `
 
   contentsContainer.appendChild(contents);
