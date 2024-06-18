@@ -7,7 +7,6 @@ const gridItem1 = `
 const gridItem2 = `
 <div class="instagram">INSTA</div>
 <div class="fire">fire</div>
-<div class="photo">PHOTOGRAPHY</div>
 <div class="nyan">냥!</div>
 <div class="bike">classic</div>
 <div class="trump">trump</div>
@@ -25,15 +24,7 @@ const gridItem3 = `
 
 `
 const gridItem4 = `
-<div class=""></div>
-<div class=""></div>
-<div class=""></div>
-<div class=""></div>
-<div class=""></div>
-<div class=""></div>
-<div class=""></div>
-<div class=""></div>
-<div class=""></div>
+<div class="resume">RESUME</div>
 `
 
 export const GRID = {
@@ -53,7 +44,7 @@ export const GRID = {
   },
 
   GRID_FOUR: {
-    name: "grid-item3",
+    name: "grid-item4",
     element: gridItem4
   }
 }
