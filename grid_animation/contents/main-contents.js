@@ -1,10 +1,13 @@
 import createGridBox from "../contents/grid-contents/createGridBox.js"
+import { grid_ARR } from "./contentItems/items.js";
 
 const contentsContainer = document.querySelector(".contents-container");
 
 function createContents () {
+  console.log("asdfafaf");
   const contents = document.createElement("div");
   contents.className = "contents";
+
 
   contents.innerHTML = `
     
@@ -16,8 +19,9 @@ function createContents () {
 
 
   const gridContents = document.querySelector(".grid-contents");
+  const gridElement = createGridBox(grid_ARR);
 
-  createGridBox.forEach(div => gridContents.appendChild(div));
+  gridElement.forEach(div => gridContents.appendChild(div));
 }
 
 document.addEventListener("DOMContentLoaded", function () {
